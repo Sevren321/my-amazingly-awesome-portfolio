@@ -2,15 +2,15 @@
     import Step from "./Step.svelte";
 
     let steps = [
-        {name: 'Sevs Store', icon: 'fa-solid fa-cart-shopping'},
-        {name: 'Ultimate Todos', icon: 'fa-solid fa-list-check'},
-        {name: 'Tablet', icon: 'fa-solid fa-diagram-project'},
+        {name: 'Sevs Store', icon: 'fa-solid fa-cart-shopping', href:'https://sevsecommerceshop.netlify.app/'},
+        {name: 'FIT MOBILE', icon: 'fa-solid fa-list-check', href:'https://fitmobile.netlify.app'},
+        {name: 'SPACE APOD', icon: 'fa-solid fa-diagram-project', href:'https://spaceapod.netlify.app/'},
     ];
 // need to define our benefits
     let benefits = [
-        {name: 'a self taught developer', description: 'taught myself.....'},
-        {name: 'a product design & UX fanatic ', description: 'crazy about....'},
-        {name: 'an excellent communicator', description: 'when we work together.....'}
+        {name: 'a self taught developer', description: 'Highly effective and extremely resouceful with a great capacity for learning and development, I have used online resources to expand my knowledge in this field and couldn\'t be more happier. All I want to do is learn more and more.'},
+        {name: 'a product design & UX fanatic ', description: 'I have always been crazy about design especially when it comes to websites and applications, I have been a skilled painter tradesman most of my life and the job has always required a very keen eye to detail.'},
+        {name: 'an excellent communicator', description: 'Also I work extremely well together with a partner or in any group. I can adapt to other minds and come together to solve any problem especially if there is one within the group.'}
     ]
 
 
@@ -52,15 +52,15 @@
         <div class="grid grid-cols-1 lg:grid:cols-3 gap-12 lg:gap-10">
            <!-- pass down a prop named step set equal to steps an array with its index -->
             <Step step={steps[0]}>
-                <p>Sevs Store is a merchandising store created with <strong class="text-red-700">Next.js Commerce.js Stripe & Node.js + Express.js!</strong> Commerce.js is a product CMS and Stripe is used for all transaction handling</p>
+                <p><strong class="text-red-700">Sevs Ecommerce</strong> is a merchandising store, currently in the testing phase, created with <strong class="text-red-700">NEXT.JS STRIPE & NODE.JS!</strong></p>
             
             </Step>
             <Step step={steps[1]}>
-                <p>Ultimate Todos is a Full Stack <strong class="text-red-700">Next.js, Node.js + Express.js & FIrebase</strong> CRUD application that allows a user to login manage a tidy and efficacious todo list, and persist this information across all devices</p>
+                <p>Using <strong class="text-red-700">REACT.JS, FIT MOBILE </strong> is a fitness application geared towards generating workout plans and keeping track of exercises that is accessible across all devices</p>
             
             </Step>
             <Step step={steps[2]}>
-                <p>The Tablet is a <strong class="text-red-700">SvelteKit & TailwindCSS </strong> web application hosted on <strong class="text-red-700">Netlify</strong> that stores all of the information of this <strong class="text-red-700">Universe</strong></p>
+                <p><strong class="text-red-700">SPACE APOD</strong> is an  Astronomy Picture Of The Day, using <strong class="text-red-700">NASA API</strong> built via REACT.JS and hosted on <strong class="text-red-700">Netlify</strong></p>
             
             </Step>
 
@@ -69,7 +69,7 @@
     </section>
     <section id='about' class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
         
-        <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-red-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-red-700 py-4">
+        <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-red-800 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-red-800 py-4">
 
         
 
