@@ -8,7 +8,7 @@
     ];
 // need to define our benefits
     let benefits = [
-        {name: 'a self taught developer', description: 'Highly effective and extremely resouceful with a great capacity for learning and development, I have used online resources to expand my knowledge in this field and couldn\'t be more happier. All I want to do is learn more and more.'},
+        {name: 'a self taught developer', description: 'Highly effective and extremely resouceful with a great capacity for learning and development, I have used online resources to expand my knowledge in this field and couldn\'t be more happy. All I want to do is learn more and more.'},
         {name: 'a product design & UX fanatic ', description: 'I have always been crazy about design especially when it comes to websites and applications, I have been a skilled painter tradesman most of my life and the job has always required a very keen eye to detail.'},
         {name: 'an excellent communicator', description: 'Also I work extremely well together with a partner or in any group. I can adapt to other minds and come together to solve any problem especially if there is one within the group.'}
     ]
