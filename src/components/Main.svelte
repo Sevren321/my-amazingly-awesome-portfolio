@@ -2,7 +2,7 @@
     import Step from "./Step.svelte";
 
     let steps = [
-        {name: 'Sevs Store', icon: 'fa-solid fa-cart-shopping', href:'https://sevsecommerceshop.netlify.app/'},
+        {name: 'Sevs Store', icon: 'fa-solid fa-cart-shopping', href:'sevsecommerce.netlify.app'},
         {name: 'FIT MOBILE', icon: 'fa-solid fa-list-check', href:'https://fitmobile.netlify.app'},
         {name: 'SPACE APOD', icon: 'fa-solid fa-diagram-project', href:'https://spaceapod.netlify.app/'},
     ];
@@ -45,7 +45,7 @@
             </h3>
           
         </div>
-        
+       
         <div class="grid grid-cols-1 lg:grid:cols-3 gap-12 lg:gap-10">
            <!-- pass down a prop named step set equal to steps an array with its index -->
             <Step step={steps[0]}>
