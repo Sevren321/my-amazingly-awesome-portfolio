@@ -2,7 +2,7 @@
     import Step from "./Step.svelte";
 
     let steps = [
-        {name: 'Sevs Store', icon: 'fa-solid fa-cart-shopping', href:'sevsecommerce.netlify.app'},
+        {name: 'Sevs Store', icon: 'fa-solid fa-cart-shopping', href:'https://sevsecommerce.netlify.app/'},
         {name: 'FIT MOBILE', icon: 'fa-solid fa-list-check', href:'https://fitmobile.netlify.app'},
         {name: 'SPACE APOD', icon: 'fa-solid fa-diagram-project', href:'https://spaceapod.netlify.app/'},
     ];
